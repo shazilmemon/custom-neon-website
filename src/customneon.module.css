@@ -1,0 +1,376 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+.headermain{
+
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5761FF;
+}
+.shippingimg{
+
+font-size: 30px;
+color: #F09EAB;
+}
+
+.shippingdiv{
+
+    display: flex;
+
+}
+.stars{
+
+    display: flex;
+    color: #F4D107;
+    font-size: 30px;
+
+
+}
+.starsmain{
+
+    display: flex;
+}
+.shippingpara{
+
+    color: white;
+}
+.rating{
+    color: white;
+}
+.warranty{
+
+    color: white;
+}
+.navbarmain{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.logo{
+
+    width: 12%;
+}
+.shopping{
+
+    padding-left: 40px;
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;
+}
+.shoppingbag{
+
+    padding-left: 10px;
+    position: relative;
+    bottom: 2px;
+}
+.backgroundimage{
+
+    width: 100%;
+}
+.imagetext{
+
+    position: relative;
+    bottom: 400px;
+    right: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+
+}
+.button,button{
+
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 20px;
+}
+.design{
+
+    border-radius: 20px;
+    border: 1px solid grey;
+    outline: none;
+    width: 20%;
+    position: relative;
+    left: 50px;
+}
+.shop{
+
+    border-radius: 20px;
+    width: 20%; 
+    border: 1px solid grey;
+    outline: none;
+    position: relative;
+    left: 50px;
+     
+}
+.upload{
+
+    border-radius: 20px;
+    width: 20%;
+    border: 1px solid grey;
+    outline: none;
+    position: relative;
+    left: 50px;
+}
+
+.off{
+     
+    transform: rotate(90deg);
+    position: relative;
+    left: 270px;
+    bottom: 80px;
+    background-color: #5761FF;
+    color: white;
+    border-radius: 7px;
+}
+.middle{
+
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    font-size: 40px;
+    color: #F09DD8;
+}
+.para{
+
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
+.arrangeimg{
+
+    display: flex;
+    padding: 70px;
+}
+.business{
+
+    padding-left: 50px;
+}
+.store{
+
+    position: relative;
+    bottom: 70px;
+}
+.imagebutton{
+     border: 1px solid grey;
+     outline: none;
+    position: relative;
+    left: 160px;
+    bottom: 90px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 8%;
+}
+.imagebutton2{
+    border: 1px solid grey;
+    outline: none;
+   position: relative;
+   left: 160px;
+   bottom: 100px;
+   width: 40%;
+   border-radius: 20px;
+   font-size: 20px;
+}
+.imagebutton3{
+    border: 1px solid grey;
+    outline: none;
+   position: relative;
+   left: 160px;
+   bottom: 150px;
+   width: 40%;
+   border-radius: 20px;
+   font-size: 20px;
+   height: 8%;
+}
+.image3:hover{
+    transform: scale(1.1);
+}
+
+.image4:hover{
+    transform: scale(1.1);
+}
+.middleicons{
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 50px;
+    
+}
+.computer{
+
+    font-size: 80px;
+    padding-left: 30px;
+}
+
+.computer2{
+
+    font-size: 80px;
+    padding-left: 55px;
+}
+
+.computer3{
+
+    font-size: 80px;
+    
+}
+.computerpara{
+
+    color: #F09DD8;
+    font-weight: bold;
+}
+    
+
+.computerpara2{
+
+    color: #F09DD8;
+    font-weight: bold;
+}
+
+.computerpara3{
+
+    color: #F09DD8;
+    font-weight: bold;
+}
+
+.computerpara4{
+
+    color: #F09DD8;
+    font-weight: bold;
+}
+
+.computerparagraph{
+
+    padding-top: 30px;
+}
+
+.bicepsparagraph{
+
+    padding-top: 30px;
+}
+.energyparagraph{
+
+    padding-top: 30px;
+}
+.computerparagraph{
+
+    padding-top: 30px;
+}
+.today{
+
+    width: 16.6%;
+    
+}
+.allimages{
+    padding-left: 30px;
+    padding: 0;
+    margin: 0;
+}
+.eighteen{
+
+    display: flex;
+    justify-content: space-between;
+}
+.twelve{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.six{
+
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgpara{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+.modern{
+
+    color: #F09EAB;
+}
+.business{
+
+    color: #F09EAB;   
+}
+.modernpara{
+
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.modernpara2{
+
+    font-size: 15px;
+}
+.reviews{
+    text-align: center;
+    color: #908DFF;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.smallcontainer{
+
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.google{
+
+    font-size: 15px;
+    
+}
+.reviewbutton{
+
+    background-color: #F09DD8;
+}
+.reviewsicons{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.benmurphy{
+
+    width: 12%;
+    
+}
+.benmurphymain{
+
+    /* border: 1px solid black; */
+    
+}
+.benmurphysubmain{
+
+    display: flex;
+}
+
+.tyvillacreses{
+
+    width: 20%;
+}
+
+.kelly{
+
+    width: 20%;
+}
+
+.kate{
+
+    width: 20%;
+}
