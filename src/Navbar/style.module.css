@@ -1,0 +1,33 @@
+.navParent {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.navParent ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.navParent ul li {
+    margin: 0 10px;
+}
+
+.navParentRes {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navParentRes {
+        display: flex;
+        padding: 10px ;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navParent {
+        display: none;
+    }
+
+}

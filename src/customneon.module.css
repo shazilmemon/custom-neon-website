@@ -1,27 +1,33 @@
-*{
+* {
 
     padding: 0;
     margin: 0;
 }
-.headermain{
 
+.headermain {
+    
     border: 1px solid black;
     display: flex;
+    
     justify-content: space-evenly;
     background-color: #5761FF;
-}
-.shippingimg{
-
-font-size: 30px;
-color: #F09EAB;
+    
+    
 }
 
-.shippingdiv{
+.shippingimg {
+
+    font-size: 30px;
+    color: #F09EAB;
+}
+
+.shippingdiv {
 
     display: flex;
 
 }
-.stars{
+
+.stars {
 
     display: flex;
     color: #F4D107;
@@ -29,49 +35,75 @@ color: #F09EAB;
 
 
 }
-.starsmain{
+
+.starsmain {
 
     display: flex;
 }
-.shippingpara{
+
+.shippingpara {
 
     color: white;
 }
-.rating{
+
+.rating {
     color: white;
 }
-.warranty{
+
+.warranty {
 
     color: white;
 }
-.navbarmain{
+
+.navbarmain {
 
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;    
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    border: 1px solid white;
+    z-index: 9000;
+    
 }
-.logo{
+.navbarlogos{
+
+    background-color: w;
+}
+.navbarfathermain{
+
+}
+.logo {
 
     width: 12%;
 }
-.shopping{
+
+.shopping {
 
     padding-left: 40px;
     font-size: 30px;
     position: relative;
     bottom: 5px;
 }
-.shoppingbag{
+
+.shoppingbag {
 
     padding-left: 10px;
     position: relative;
     bottom: 2px;
 }
-.backgroundimage{
+
+.backgroundimage {
 
     width: 100%;
 }
-.imagetext{
+
+.imagetext {
 
     position: relative;
     bottom: 400px;
@@ -81,14 +113,17 @@ color: #F09EAB;
     font-size: 40px;
 
 }
-.button,button{
+
+.button,
+button {
 
     font-size: 20px;
     padding: 10px;
     margin: 10px;
     padding-left: 20px;
 }
-.design{
+
+.design {
 
     border-radius: 20px;
     border: 1px solid grey;
@@ -97,17 +132,19 @@ color: #F09EAB;
     position: relative;
     left: 50px;
 }
-.shop{
+
+.shop {
 
     border-radius: 20px;
-    width: 20%; 
+    width: 20%;
     border: 1px solid grey;
     outline: none;
     position: relative;
     left: 50px;
-     
+
 }
-.upload{
+
+.upload {
 
     border-radius: 20px;
     width: 20%;
@@ -117,17 +154,21 @@ color: #F09EAB;
     left: 50px;
 }
 
-.off{
-     
+.off {
+
     transform: rotate(90deg);
-    position: relative;
-    left: 270px;
+    position: fixed;    
+    width: 184px;
+    margin-left: 110px;
+    margin-bottom: 100px;
+    transform-origin: right top;
     bottom: 80px;
     background-color: #5761FF;
     color: white;
     border-radius: 7px;
 }
-.middle{
+
+.middle {
 
     text-align: center;
     position: relative;
@@ -135,30 +176,35 @@ color: #F09EAB;
     font-size: 40px;
     color: #F09DD8;
 }
-.para{
+
+.para {
 
     text-align: center;
     font-size: 25px;
     position: relative;
     bottom: 50px;
 }
-.arrangeimg{
+
+.arrangeimg {
 
     display: flex;
     padding: 70px;
 }
-.business{
+
+.business {
 
     padding-left: 50px;
 }
-.store{
+
+.store {
 
     position: relative;
     bottom: 70px;
 }
-.imagebutton{
-     border: 1px solid grey;
-     outline: none;
+
+.imagebutton {
+    border: 1px solid grey;
+    outline: none;
     position: relative;
     left: 160px;
     bottom: 90px;
@@ -167,130 +213,196 @@ color: #F09EAB;
     font-size: 20px;
     height: 8%;
 }
-.imagebutton2{
+
+.imagebutton2 {
     border: 1px solid grey;
     outline: none;
-   position: relative;
-   left: 160px;
-   bottom: 100px;
-   width: 40%;
-   border-radius: 20px;
-   font-size: 20px;
+    position: relative;
+    left: 160px;
+    bottom: 100px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 20px;
 }
-.imagebutton3{
+
+.imagebutton3 {
     border: 1px solid grey;
     outline: none;
-   position: relative;
-   left: 160px;
-   bottom: 150px;
-   width: 40%;
-   border-radius: 20px;
-   font-size: 20px;
-   height: 8%;
+    position: relative;
+    left: 160px;
+    bottom: 150px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 8%;
 }
-.image3:hover{
+
+.image3:hover {
     transform: scale(1.1);
 }
 
-.image4:hover{
+.image4:hover {
     transform: scale(1.1);
 }
-.middleicons{
+
+.middleicons {
 
     display: flex;
     justify-content: space-around;
     position: relative;
     bottom: 50px;
-    
+
 }
-.computer{
+
+.computer {
 
     font-size: 80px;
     padding-left: 30px;
 }
 
-.computer2{
+.computer2 {
 
     font-size: 80px;
     padding-left: 55px;
 }
 
-.computer3{
+.computer3 {
 
     font-size: 80px;
-    
-}
-.computerpara{
 
-    color: #F09DD8;
-    font-weight: bold;
 }
-    
 
-.computerpara2{
+.computerpara {
 
     color: #F09DD8;
     font-weight: bold;
 }
 
-.computerpara3{
+
+.computerpara2 {
 
     color: #F09DD8;
     font-weight: bold;
 }
 
-.computerpara4{
+.computerpara3 {
 
     color: #F09DD8;
     font-weight: bold;
 }
 
-.computerparagraph{
+.computerpara4 {
+
+    color: #F09DD8;
+    font-weight: bold;
+}
+
+.computerparagraph {
 
     padding-top: 30px;
 }
 
-.bicepsparagraph{
+.bicepsparagraph {
 
     padding-top: 30px;
 }
-.energyparagraph{
+
+.energyparagraph {
 
     padding-top: 30px;
 }
-.computerparagraph{
+
+.computerparagraph {
 
     padding-top: 30px;
 }
-.today{
+
+.today {
 
     width: 16.6%;
-    
+
 }
-.allimages{
+
+.specialhouse {
+
+    width: 16.6%;
+}
+
+.girl {
+    width: 16.6%;
+
+}
+
+.wannastyle {
+    width: 16.6%;
+
+}
+
+
+.sundrop {
+
+    width: 16.6%;
+}
+
+.flora {
+    width: 16.6%;
+
+}
+
+.upandat {
+    width: 16.6%;
+
+}
+
+
+
+.girl2 {
+
+    width: 16.6%;
+}
+
+.burger {
+    width: 16.6%;
+
+}
+
+.cane {
+    width: 16.6%;
+
+}
+
+
+
+
+.allimages {
     padding-left: 30px;
     padding: 0;
     margin: 0;
 }
-.eighteen{
+
+.eighteen {
 
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
-.twelve{
+
+.twelve {
 
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-.six{
+.six {
 
     padding-top: 50px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
+.beer{
 
-.imgpara{
+    padding-left: 60px;
+}
+.imgpara {
 
     display: flex;
     justify-content: space-around;
@@ -298,79 +410,1041 @@ color: #F09EAB;
 
 }
 
-.modern{
+.modern {
 
     color: #F09EAB;
 }
-.business{
 
-    color: #F09EAB;   
+.business {
+
+    color: #F09EAB;
 }
-.modernpara{
+
+.modernpara {
 
     font-size: 15px;
     padding-top: 10px;
 }
 
-.modernpara2{
+.modernpara2 {
 
     font-size: 15px;
 }
-.reviews{
+
+.reviews {
     text-align: center;
     color: #908DFF;
     padding-top: 50px;
     font-weight: bold;
 }
-.smallcontainer{
+.ratingstars{
+
+    color: #F4D107;
+}
+.googlecolor{
+
+    width: 5%;
+}
+.smallcontainer {
 
     border: 1px solid black;
     display: flex;
+    
     justify-content: space-between;
-    
-    
+
+
 }
-.google{
+
+.google {
 
     font-size: 15px;
-    
+
 }
-.reviewbutton{
+
+.reviewbutton {
 
     background-color: #F09DD8;
 }
-.reviewsicons{
+
+.reviewsicons {
 
     display: flex;
     justify-content: space-around;
     padding-top: 70px;
 }
-.benmurphy{
 
-    width: 12%;
-    
-}
-.benmurphymain{
+.benmurphy {
 
-    /* border: 1px solid black; */
-    
+    width: 20%;
+
 }
-.benmurphysubmain{
+
+.benmurphymain {
+
+
+    border: 1px solid rgb(136, 135, 135);
+    background-color: rgb(194, 191, 191);
+    ;
+    border-radius: 10px;
+}
+
+.benmurphysubmain {
+
+    align-items: center;
+}
+
+.benmurphypara {}
+
+.tyvillacresesmain {
+
+
+    border: 1px solid rgb(136, 135, 135);
+    background-color: rgb(194, 191, 191);
+    border-radius: 10px;
+
+}
+
+.tyvillacresessubmain {}
+
+.kelly {
+
+    width: 20%;
+}
+
+.kellysubmain {}
+
+.kellymain {
+
+
+    border: 1px solid rgb(136, 135, 135);
+    background-color: rgb(194, 191, 191);
+    border-radius: 10px;
+
+}
+
+.kate {
+
+    width: 20%;
+}
+
+.katesubmain {}
+
+.katemain {
+
+
+    border: 1px solid rgb(136, 135, 135);
+    background-color: rgb(194, 191, 191);
+    border-radius: 10px;
+
+}
+
+.yellowcolor {
+
+    color: yellow;
+    font-size: 20px;
+}
+
+.sellerhead {
+
+    text-align: center;
+    padding-top: 100px;
+    color: #F09EAB;
+    font-weight: bold;
+}
+
+.sellerheadpara {
+
+    text-align: center;
+
+}
+
+.selleritems {
 
     display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    align-items: center;
 }
 
-.tyvillacreses{
-
-    width: 20%;
+.barsigns {
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: #F09DD8;
 }
 
-.kelly{
+.sellerimages {
 
-    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+
 }
 
-.kate{
+.sellerimagesmid {
 
-    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+
 }
+
+.thinkbetter {
+    width: 60%;
+    padding-left: 60px;
+}
+
+.ithink {
+
+    text-align: center;
+    padding-left: 40px;
+}
+.ithink3{
+
+    padding-left: 60px;
+}
+.paraimagemain {}
+
+.savewater {
+    width: 60%;
+    padding-left: 60px;
+}
+
+.cocktails {
+    width: 60%;
+    padding-left: 60px;
+}
+
+.vineglass {
+    width: 60%;
+    padding-left: 60px;
+}
+.goodlife{
+
+    padding-left: 60px;
+}
+.ithink {
+
+    position: relative;
+    right: 40px;
+    font-size: 20px;
+}
+
+.champgne {
+
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+
+}
+.barcircle{
+
+    padding-left: 60px;
+}
+.shipping {
+
+    position: relative;
+    left: 70px;
+    font-size: 20px;
+}
+
+.wine {
+
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+}
+.wine2{
+
+    padding-left: 60px;
+}
+
+.dollar {
+
+    padding-top: 50px;
+}
+
+.followus {
+
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    color: #5761FF;
+}
+
+.room {
+
+    width: 16.6%;
+
+}
+
+.bestlife {
+
+    width: 16.6%;
+    height: 280px;
+
+}
+
+.adventure {
+
+    width: 16.6%;
+    height: 279px;
+
+}
+
+.heart {
+
+    width: 16.6%;
+    height: 275px;
+
+}
+
+.highs {
+
+    width: 16.6%;
+
+}
+
+.girls2 {
+
+    width: 16.6%;
+    height: 280px;
+
+}
+
+.allimages2 {
+    padding-left: 30px;
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.brands {
+
+    text-align: center;
+    color: #eb7e6b;
+    font-weight: bold;
+    padding-top: 110px;
+}
+
+.brandimages {
+    padding-left: 30px;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footermainlogo {
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.pink {
+
+    padding-bottom: 50px;
+}
+
+.footerbackground {
+    background-color: #5761FF;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+
+
+
+}
+
+.aboutus {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutuspara {
+
+   position: relative;
+   right: 50px;
+    /* color: white; */
+}
+
+.faqspara {
+
+    position: relative;
+   right: 50px;
+    /* color: white; */
+}
+
+.custompara {
+    position: relative;
+    right: 50px;
+
+    /* color: white; */
+}
+
+.contactpara {
+
+    position: relative;
+   right: 50px;
+    /* color: white; */
+}
+
+.copyright {
+
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.navparentRes{
+
+    display: none;
+}
+.ithink2{
+
+    padding-left: 60px;
+}
+.ithinkcheers{
+
+    padding-left: 60px;
+}
+
+@media only screen and (max-width: 320px) {
+    * {
+
+        padding: 0;
+        margin: 0;
+    }
+    .navbarmain {
+        display: none;
+    }
+.headermain{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.starsmain{
+
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    bottom: 10px;
+}
+.shippingpara{
+    padding-left: 80px;
+    position: relative;
+    top: 20px;
+}
+.shippingimg{
+
+    padding-left: 100px;
+    position: relative;
+    left: 80px;
+    top: 15px;
+    }
+.warranty{
+
+    position: relative;
+    text-align: end;
+    bottom: 30px;
+}
+   .navparentRes{
+
+    display: flex;
+    padding: 10px ;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .logo2{
+
+position: relative;
+left: 30px;
+   }
+.shopping{
+
+    display: block;
+}
+    iframe {
+        width: 100%;
+        
+    }
+
+    .off {
+        
+    position: fixed;
+    left: 30px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    overflow: auto;
+    z-index: 9000;
+    }
+
+    .turnyour {
+
+        text-align: center;
+        padding-left: 60px;
+        position: relative;
+        bottom: 130px;
+        left: 20px;
+    }
+
+    .button {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 150%;
+        position: relative;
+        right: 150px;
+
+        bottom: 160px;
+    }
+
+    .middle {
+
+        font-size: 33px;
+        position: relative;
+        bottom: 450px;
+    }
+
+    .para {
+
+        font-size: 20px;
+        position: relative;
+        bottom: 400px;
+    }
+
+    .arrangeimg {
+
+        display: flex;
+        position: relative;
+        bottom: 350px;
+        flex-direction: column;
+
+    }
+
+    .image3 {
+
+        width: 160%;
+        position: relative;
+        right: 50px;
+    }
+
+    .imagebutton {
+
+        /* width: 100%; */
+    
+        display: flex;
+        justify-content: flex-end;
+
+
+    }
+
+    .image4 {
+
+        width: 230%;
+        position: relative;
+        right: 85px;
+        bottom: 50px;
+    }
+
+    .imagebutton2 {
+
+        position: relative;
+        bottom: 200px;
+        display: flex;
+        justify-content: flex-end;
+
+
+    }
+
+    .store {
+
+        width: 230%;
+        position: relative;
+        right: 85px;
+        bottom: 130px;
+
+    }
+
+    .imagebutton3 {
+
+        bottom: 250px;
+        display: flex;
+        justify-content: flex-end;
+
+
+    }
+
+    .middleicons {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .computer {
+
+        padding-left: 80px;
+    }
+
+    .computermain {
+
+        text-align: center;
+    }
+
+
+    .computer2 {
+
+        padding-left: 80px;
+    }
+
+    .computerpara2 {
+
+        text-align: center;
+    }
+
+    .energyparagraph {
+
+        text-align: center;
+    }
+
+
+
+
+    .computer3 {
+
+        padding-left: 80px;
+    }
+
+    .computerpara3 {
+
+        text-align: center;
+    }
+
+    .bicepsparagraph {
+
+        text-align: center;
+    }
+
+    .computerpara4 {
+
+        text-align: center;
+    }
+
+    .computerparagraph {
+
+        text-align: center;
+    }
+
+    .allimages {
+
+
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .six {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+
+    .specialhouse {
+        display: none;
+
+    }
+
+    .girl {
+        display: none;
+
+    }
+
+    /* .wannastyle{
+
+    display: none;
+} */
+
+    .twelve {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sundrop {
+        display: none;
+
+    }
+
+    .flora {
+        display: none;
+
+    }
+
+    /* .upandat{
+        
+            display: none;
+        } */
+    .eighteen {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+
+    .girl2 {
+        display: none;
+
+    }
+
+    .burger {
+        display: none;
+
+    }
+
+    /* .cane{
+            
+                display: none;
+            } */
+
+
+    .imgpara {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .business {
+
+        position: relative;
+        right: 20px;
+    }
+
+    .smallcontainer {
+
+        display: flex;
+        flex-direction: column;
+        border-spacing: 30px;
+        align-items: center;
+    }
+
+    .google {
+
+        text-align: center;
+    }
+
+    .reviewsicons {
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .sellerheadpara {
+
+        font-size: 20px;
+    }
+
+    .selleritems {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sellerimages {
+
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    .paraimagemain {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .paraimagemain3 {
+
+        padding-top: 30px;
+    }
+
+    .thinkbetter {
+
+        width: 40%;
+        position: relative;
+        right: 30px;
+        bottom: 50px;
+    }
+
+    .ithink {
+
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 13px;
+        bottom: 35px;
+    }
+
+    .ithinkcheers {
+
+
+        position: relative;
+    
+        bottom: 35px;
+    }
+
+
+    .ithink2 {
+
+
+        justify-content: center;
+        position: relative;
+        top: 5px;
+         
+        bottom: 40px;
+    }
+
+    .dollar {
+
+        position: relative;
+        right: 150px;
+        top: 30px;
+    }
+
+    .dollar55 {
+
+        position: relative;
+        right: 120px;
+        top: 100px;
+    }
+
+    .savewater {
+
+        width: 40%;
+        position: relative;
+        right: 30px;
+        bottom: 10px;
+    }
+
+    .ithink {
+
+        position: relative;
+        right: 160px;
+    }
+
+
+    .cocktails {
+
+        width: 40%;
+        position: relative;
+        right: 30px;
+    }
+
+    
+
+    .vineglass {
+
+        width: 40%;
+        position: relative;
+        right: 30px;
+    }
+
+    .ithink {
+
+        position: relative;
+        right: 160px;
+    }
+
+
+    .dollar2 {
+
+        position: relative;
+        left: 90px;
+        top: 20px;
+    }
+
+    .shipping {
+
+        position: relative;
+        left: 80px;
+
+    }
+
+    /* .dollar{
+
+    position: relative;
+    left:  45px; 
+} */
+    .followus {
+
+        font-size: 50px;
+    }
+
+    .allimages2 {}
+
+    .room {
+        width: 50%;
+        height: 50%;
+    }
+
+    .bestlife {
+        width: 50%;
+        height: 200px;
+
+    }
+
+    .adventure {
+        width: 50%;
+    }
+
+    .heart {
+        width: 50%;
+    }
+
+    .highs {
+        width: 50%;
+        display: none;
+    }
+
+    .girls2 {
+        width: 50%;
+        display: none;
+    }
+
+    .brands {
+
+        font-size: 40px;
+    }
+
+    .brandimages {
+
+        display: flex;
+        width: 60%;
+        padding-left: 60px;
+        flex-direction: column;
+    
+
+    }
+
+    .pink {
+
+        width: 70%;
+        
+
+    }
+
+    .footerbackground {
+
+        display: flex;
+         
+        justify-content: center;
+    }
+.aboutus{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 30px;
+
+    
+}
+    .contactpara {
+        
+        margin: 13px;
+        color: white;
+
+
+
+    }
+
+    .faqspara {
+        
+        margin: 13px;
+        color: white;
+
+    }
+
+    .custompara {
+
+        margin: 13px;
+        color: white;
+
+    }
+    .aboutuspara{
+        
+        margin: 13px;
+        color: white;
+
+    }
+    .design{
+
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 70px;
+    }
+    .shop{
+
+        width: 50%;
+        position: relative;
+        left: 70px;
+    }
+    .upload{
+
+        width: 50%;
+        position: relative;
+        left: 70px;
+ 
+    }
+.budweiser{
+
+    size: 50px;
+}
+.ithink3{
+
+    padding-right: 50px;
+}
+.wine2{
+
+    padding-right: 50px;
+}
+.barcircle{
+
+    padding-left: 0;
+}
+.goodlife{
+
+    padding-right: 45px;
+}
+.beer{
+
+    padding-right: 50px;
+}
+
+}
+
